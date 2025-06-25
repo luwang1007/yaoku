@@ -1,0 +1,50 @@
+.container {
+  padding: 20rpx;
+  background: #f7f7f7;
+  min-height: 100vh;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 16rpx;
+  padding: 16rpx;
+  margin-bottom: 20rpx;
+  box-shadow: 0 2rpx 8rpx #eee;
+}
+.search-input {
+  flex: 1;
+  border: none;
+  font-size: 32rpx;
+  background: transparent;
+  outline: none;
+}
+.add-btn {
+  margin-left: 20rpx;
+  background: #07c160;
+  color: #fff;
+  border-radius: 8rpx;
+  padding: 10rpx 24rpx;
+  font-size: 28rpx;
+}
+.batch-btn {
+  margin-left: 10rpx;
+  background: #ff9800;
+  color: #fff;
+  border-radius: 8rpx;
+  padding: 10rpx 24rpx;
+  font-size: 28rpx;
+}
+.medicine-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16rpx;
+}
+.medicine-item {
+  background: #fff;
+  border-radius: 12rpx;
+  padding: 20rpx 32rpx;
+  font-size: 30rpx;
+  box-shadow: 0 2rpx 8rpx #eee;
+  margin-bottom: 10rpx;
+} 

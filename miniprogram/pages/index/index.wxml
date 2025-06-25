@@ -1,0 +1,12 @@
+<view class="container">
+  <view class="search-bar">
+    <input class="search-input" placeholder="搜索药名或编号" bindinput="onSearchInput" value="{{searchValue}}" />
+    <button class="add-btn" bindtap="onAddTap">添加</button>
+    <button class="batch-btn" bindtap="batchUpdateData">批量处理</button>
+  </view>
+  <view class="medicine-list">
+    <block wx:for="{{medicines}}" wx:key="code">
+      <view class="medicine-item" bindlongpress="onMedicineLongPress" data-code="{{item.code}}" data-name="{{item.name}}">{{item.name}}（{{item.code}}）</view>
+    </block>
+  </view>
+</view> 
